@@ -1,0 +1,158 @@
+!define BLANK ""
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\aec.obj : D:\Neil\Work\UEFI\EDK2\AEU&
+Pkg\src\aec.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\aec.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -m&
+f
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\acpi.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\base\acpi.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\base\acpi.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=&
+dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ite.obj : D:\Neil\Work\UEFI\EDK2\AEU&
+Pkg\src\base\ite.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\base\ite.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=d&
+os -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\pmc.obj : D:\Neil\Work\UEFI\EDK2\AEU&
+Pkg\src\base\pmc.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\base\pmc.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=d&
+os -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\rdc.obj : D:\Neil\Work\UEFI\EDK2\AEU&
+Pkg\src\base\rdc.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\base\rdc.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=d&
+os -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\rdc4.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\base\rdc4.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\base\rdc4.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=&
+dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\util.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\base\util.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\base\util.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=&
+dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ebc_kf08.obj : D:\Neil\Work\UEFI\EDK&
+2\AEUPkg\src\customer\ebc_kf08\ebc_kf08.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\customer\ebc_kf08\ebc_kf08.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq&
+ -od -d2 -6r -bt=dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\epc_c301.obj : D:\Neil\Work\UEFI\EDK&
+2\AEUPkg\src\customer\epc_c301\epc_c301.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\customer\epc_c301\epc_c301.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq&
+ -od -d2 -6r -bt=dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\som6867_exfo.obj : D:\Neil\Work\UEFI&
+\EDK2\AEUPkg\src\customer\exfo_ec_update\som6867_exfo.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\customer\exfo_ec_update\som6867_exfo.c -i=C:\WATCOM\h -w4 -e25 -&
+d_DOS_ -zq -od -d2 -6r -bt=dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\mioe_260.obj : D:\Neil\Work\UEFI\EDK&
+2\AEUPkg\src\customer\mioe_260\mioe_260.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\customer\mioe_260\mioe_260.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq&
+ -od -d2 -6r -bt=dos -mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecg4.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecg4.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecg4.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecge.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecge.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecge.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgf.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecgf.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecgf.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgi.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecgi.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecgi.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgs.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecgs.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecgs.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgx.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecgx.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecgx.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgz.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\ecgz.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\ecgz.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\main.obj : D:\Neil\Work\UEFI\EDK2\AE&
+UPkg\src\main.c .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ *wcc386 ..\main.c -i=C:\WATCOM\h -w4 -e25 -d_DOS_ -zq -od -d2 -6r -bt=dos -&
+mf
+
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\aeudos.exe : D:\Neil\Work\UEFI\EDK2\&
+AEUPkg\src\build\aec.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\acpi.obj D:&
+\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ite.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\&
+src\build\pmc.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\rdc.obj D:\Neil\Wo&
+rk\UEFI\EDK2\AEUPkg\src\build\rdc4.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\bui&
+ld\util.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ebc_kf08.obj D:\Neil\Wor&
+k\UEFI\EDK2\AEUPkg\src\build\epc_c301.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\&
+build\som6867_exfo.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\mioe_260.obj &
+D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecg4.obj D:\Neil\Work\UEFI\EDK2\AEUP&
+kg\src\build\ecge.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgf.obj D:\Ne&
+il\Work\UEFI\EDK2\AEUPkg\src\build\ecgi.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\sr&
+c\build\ecgs.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build\ecgx.obj D:\Neil\Wo&
+rk\UEFI\EDK2\AEUPkg\src\build\ecgz.obj D:\Neil\Work\UEFI\EDK2\AEUPkg\src\bui&
+ld\main.obj .AUTODEPEND
+ @D:
+ cd D:\Neil\Work\UEFI\EDK2\AEUPkg\src\build
+ @%write aeudos.lk1 FIL aec.obj,acpi.obj,ite.obj,pmc.obj,rdc.obj,rdc4.obj,ut&
+il.obj,ebc_kf08.obj,epc_c301.obj,som6867_exfo.obj,mioe_260.obj,ecg4.obj,ecge&
+.obj,ecgf.obj,ecgi.obj,ecgs.obj,ecgx.obj,ecgz.obj,main.obj
+ @%append aeudos.lk1 
+ *wlink name aeudos d all SYS pmodew op m op maxe=25 op q op symf @aeudos.lk&
+1
+ xcopy /Y /V .\aeudos.exe ..\out\dos\
+

@@ -1,0 +1,65 @@
+## @file
+#  A simple, basic, EDK II native, "hello" application.
+#
+#   Copyright (c) 2010, Intel Corporation. All rights reserved.<BR>
+#   This program and the accompanying materials
+#   are licensed and made available under the terms and conditions of the BSD License
+#   which accompanies this distribution. The full text of the license may be found at
+#   http://opensource.org/licenses/bsd-license.
+#
+#   THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = aeuefi
+  FILE_GUID                      = FCF063D0-72EA-49CB-AA33-832F22CA69DC
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = ShellCEntryLib
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+[BuildOptions]
+# add stack length from define(32768) to 131072
+MSFT:*_*_*_CC_FLAGS = /Gs131072 /D_UEFI_
+
+[Sources]
+  main.c
+  aec.c
+  ecge.c
+  ecgi.c
+  ecgf.c
+  ecgs.c
+  ecgx.c
+  ecgz.c
+  ecg4.c
+  is200_test.c
+  base/pmc.c
+  base/acpi.c
+  base/util.c
+  base/rdc.c
+  base/ite.c
+  base/rdc4.c
+  customer/exfo_ec_update/som6867_exfo.c
+  customer/mioe_260/mioe_260.c
+  customer/ebc_kf08/ebc_kf08.c
+  customer/epc_c301/epc_c301.c
+  
+[Packages]
+  StdLib/StdLib.dec
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+  
+[LibraryClasses]
+  LibC
+  LibStdio
+  IoLib
+  DevShell
+#  UefiApplicationEntryPoint
+
+[Protocols] 
+gEfiSimpleTextInputExProtocolGuid
